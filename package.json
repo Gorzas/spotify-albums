@@ -1,7 +1,7 @@
 {
-  "name": "spotify-playlist",
+  "name": "spotify-albums",
   "version": "1.0.0",
-  "description": "Node code to get Playlist tracks and print in screen with an specific format",
+  "description": "Get Spotify albums links using their albums names",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
