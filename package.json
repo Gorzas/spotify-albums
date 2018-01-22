@@ -4,7 +4,7 @@
   "description": "Get Spotify albums links using their albums names",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "eslint ."
   },
   "author": "Gorzas",
   "license": "BSD-2-Clause",
@@ -12,5 +12,10 @@
     "csv": "^2.0.0",
     "request": "~2.53.0",
     "spotify-web-api-node": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
