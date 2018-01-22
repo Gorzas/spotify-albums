@@ -1,7 +1,7 @@
-# Spotify Playlist
+# Spotify Albums
 
 A brief example of the usage of the Spotify API with Node. The code connects
-with the Spotify API and it retrieves all the songs of an specific playlist.
+with the Spotify API and it retrieves all the albums links of an specific list.
 Then, it exports the metadata to a text file in markdown format.
 
 # Usage
@@ -11,4 +11,4 @@ Then, it exports the metadata to a text file in markdown format.
 3. Register your application in Spotify following their [tutorial](https://developer.spotify.com/web-api/tutorial/)
 4. Include your `client_id` and your `client_secret` in */node/config.json* following the example in *config_sample.json*
 5. `cd node/`
-6. Run `node get_playlist_tracks.js <playlist_uri>`
+6. Run `node get_albums.js`
