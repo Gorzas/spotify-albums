@@ -8,7 +8,7 @@ async function app() {
     );
 
     console.log(data);
-  } catch(e) {
+  } catch (e) {
     console.log(e);
   }
 }
