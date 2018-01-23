@@ -1,4 +1,5 @@
 const parseCSV = require('./utils/parse-csv');
+const getAlbums = require('./utils/get-albums');
 
 async function app() {
   try {
@@ -7,7 +8,7 @@ async function app() {
       ['artist', 'album'],
     );
 
-    console.log(data);
+    console.log(await getAlbums(data));
   } catch (e) {
     console.log(e);
   }
