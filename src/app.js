@@ -1,14 +1,18 @@
 const parseCSV = require('./utils/parse-csv');
 const getAlbums = require('./utils/get-albums');
+const {
+  createTweets,
+  saveTweets,
+} = require('./utils/create-tweets');
 
 async function app() {
   try {
     const data = await parseCSV(
       'src/config/albums.csv',
-      ['artist', 'album'],
+      ['artist', 'album', 'twitter', 'url'],
     );
 
-    console.log(await getAlbums(data));
+    saveTweets((createTweets(await getAlbums(data))));
   } catch (e) {
     console.log(e);
   }
