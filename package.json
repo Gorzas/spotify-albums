@@ -11,7 +11,8 @@
   "dependencies": {
     "csv": "^2.0.0",
     "request": ">=2.68.0",
-    "spotify-web-api-node": "^2.5.0"
+    "spotify-web-api-node": "^2.5.0",
+    "twitter": "^1.7.1"
   },
   "devDependencies": {
     "eslint": "^4.16.0",
