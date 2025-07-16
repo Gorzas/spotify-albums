@@ -377,23 +377,23 @@ csv-generate@^4.5.0:
   resolved "https://registry.yarnpkg.com/csv-generate/-/csv-generate-4.5.0.tgz#5fbbb89bd9f8ce705871c9baf02e1d4bb4000fb3"
   integrity sha512-aQr/vmOKyBSBHNwYhAoXw1+kUsPnMSwmYgpNoo36rIXoG1ecWILnvPGZeQ6oUjzrWknZAD3+jfpqYOBAl4x15A==
 
-csv-parse@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-6.0.0.tgz#f1fccfa8339e178a99f38a69d8c70372f16a90dc"
-  integrity sha512-6aB9WrymEruVDwQOwa5AuYk4/Gb+HaJgLHGKOA9BXTqgsIFvbdHzQzZOuqNCOooTGciPDaHzTlGkU5P6kYVUYw==
+csv-parse@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/csv-parse/-/csv-parse-6.1.0.tgz#c642ec5b7fc57c1f477a07d179beb5ff0dfd5ed0"
+  integrity sha512-CEE+jwpgLn+MmtCpVcPtiCZpVtB6Z2OKPTr34pycYYoL7sxdOkXDdQ4lRiw6ioC0q6BLqhc6cKweCVvral8yhw==
 
 csv-stringify@^6.6.0:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/csv-stringify/-/csv-stringify-6.6.0.tgz#d384859cfb71d0a4a73c5bcc36a4daf5440cb033"
   integrity sha512-YW32lKOmIBgbxtu3g5SaiqWNwa/9ISQt2EcgOq0+RAIFufFp9is6tqNnKahqE5kuKvrnYAzs28r+s6pXJR8Vcw==
 
-csv@^6.2.7:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/csv/-/csv-6.4.0.tgz#c7c61cba3c1def944563c7a6806625fc55e2b206"
-  integrity sha512-ANuTejMc7MI4L4hc8KBKVNKg8yuwXFTlKAjCFwPRGsrnO63KUDKbDVY7/m/RADeeAmFZmAwRjk9E6LUh32026A==
+csv@^6.4.1:
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/csv/-/csv-6.4.1.tgz#c9a62130c025f8adb2a85a75d4c2608612995822"
+  integrity sha512-ajGosmTGnTwYyGl8STqZDu7R6LkDf3xL39XiOmliV/GufQeVUxHzTKIm4NOBCwmEuujK7B6isxs4Uqt9GcRCvA==
   dependencies:
     csv-generate "^4.5.0"
-    csv-parse "^6.0.0"
+    csv-parse "^6.1.0"
     csv-stringify "^6.6.0"
     stream-transform "^3.4.0"
 
@@ -686,7 +686,7 @@ eslint-visitor-keys@^4.2.1:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-4.2.1.tgz#4cfea60fe7dd0ad8e816e1ed026c1d5251b512c1"
   integrity sha512-Uhdk5sfqcee/9H/rCOJikYz67o0a2Tw2hGRPOG2Y1R2dg7brRe1uG0yaNQDHu+TO/uQPF/5eCapvYSmHUjt7JQ==
 
-eslint@^9.31.0:
+eslint@^9.0.0:
   version "9.31.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-9.31.0.tgz#9a488e6da75bbe05785cd62e43c5ea99356d21ba"
   integrity sha512-QldCVh/ztyKJJZLr4jXNUByx3gR+TDYZCRXEktiZoUR3PGy4qCmSbkxcIle8GEwGpb5JBZazlaJ/CxLidXdEbQ==
